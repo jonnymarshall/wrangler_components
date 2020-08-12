@@ -26,6 +26,7 @@ body {
   --dark-red: #7B221D;
   --grey: #C5C5C5;
   --lightblue: #00529F;
+  --beige:  #D3D0BF;
 }
 
 @charset "UTF-8";.subheader {
@@ -5045,11 +5046,13 @@ ol.no-bullet,ul.no-bullet {
 }
 
 .o-dc-button.disabled,.o-dc-button[disabled] {
-  opacity: .25;
+  /* opacity: .25; */
+  background-color: var(--grey);
+  color: #fff;
   cursor: not-allowed
 }
 
-.o-dc-button.disabled,.o-dc-button.disabled:focus,.o-dc-button.disabled:hover,.o-dc-button[disabled],.o-dc-button[disabled]:focus,.o-dc-button[disabled]:hover {
+/* .o-dc-button.disabled,.o-dc-button.disabled:focus,.o-dc-button.disabled:hover,.o-dc-button[disabled],.o-dc-button[disabled]:focus,.o-dc-button[disabled]:hover {
   background-color: var(--black);
   color: #fff
 }
@@ -5112,7 +5115,7 @@ ol.no-bullet,ul.no-bullet {
 .o-dc-button.disabled.white,.o-dc-button.disabled.white:focus,.o-dc-button.disabled.white:hover,.o-dc-button[disabled].white,.o-dc-button[disabled].white:focus,.o-dc-button[disabled].white:hover {
   background-color: #fff;
   color: var(--black)
-}
+} */
 
 .o-dc-button.hollow {
   border: 1px solid var(--black);
@@ -5123,19 +5126,19 @@ ol.no-bullet,ul.no-bullet {
   background-color: transparent
 }
 
-.o-dc-button.hollow.disabled,.o-dc-button.hollow.disabled:focus,.o-dc-button.hollow.disabled:hover,.o-dc-button.hollow[disabled],.o-dc-button.hollow[disabled]:focus,.o-dc-button.hollow[disabled]:hover {
+/* .o-dc-button.hollow.disabled,.o-dc-button.hollow.disabled:focus,.o-dc-button.hollow.disabled:hover,.o-dc-button.hollow[disabled],.o-dc-button.hollow[disabled]:focus,.o-dc-button.hollow[disabled]:hover {
   background-color: transparent
-}
+} */
 
 .o-dc-button.hollow:focus,.o-dc-button.hollow:hover {
   border-color: #171816;
   color: #171816
 }
 
-.o-dc-button.hollow:focus.disabled,.o-dc-button.hollow:focus[disabled],.o-dc-button.hollow:hover.disabled,.o-dc-button.hollow:hover[disabled] {
+/* .o-dc-button.hollow:focus.disabled,.o-dc-button.hollow:focus[disabled],.o-dc-button.hollow:hover.disabled,.o-dc-button.hollow:hover[disabled] {
   border: 1px solid var(--black);
   color: var(--black)
-}
+} */
 
 .o-dc-button.hollow.primary {
   border: 1px solid var(--black);
@@ -5147,10 +5150,10 @@ ol.no-bullet,ul.no-bullet {
   color: #171816
 }
 
-.o-dc-button.hollow.primary:focus.disabled,.o-dc-button.hollow.primary:focus[disabled],.o-dc-button.hollow.primary:hover.disabled,.o-dc-button.hollow.primary:hover[disabled] {
+/* .o-dc-button.hollow.primary:focus.disabled,.o-dc-button.hollow.primary:focus[disabled],.o-dc-button.hollow.primary:hover.disabled,.o-dc-button.hollow.primary:hover[disabled] {
   border: 1px solid var(--black);
   color: var(--black)
-}
+} */
 
 .o-dc-button.hollow.secondary {
   border: 1px solid var(lightblue);
@@ -5162,10 +5165,10 @@ ol.no-bullet,ul.no-bullet {
   color: #445826
 }
 
-.o-dc-button.hollow.secondary:focus.disabled,.o-dc-button.hollow.secondary:focus[disabled],.o-dc-button.hollow.secondary:hover.disabled,.o-dc-button.hollow.secondary:hover[disabled] {
+/* .o-dc-button.hollow.secondary:focus.disabled,.o-dc-button.hollow.secondary:focus[disabled],.o-dc-button.hollow.secondary:hover.disabled,.o-dc-button.hollow.secondary:hover[disabled] {
   border: 1px solid var(lightblue);
   color: var(lightblue)
-}
+} */
 
 .o-dc-button.hollow.success {
   border: 1px solid var(lightblue);
@@ -5177,10 +5180,10 @@ ol.no-bullet,ul.no-bullet {
   color: #445826
 }
 
-.o-dc-button.hollow.success:focus.disabled,.o-dc-button.hollow.success:focus[disabled],.o-dc-button.hollow.success:hover.disabled,.o-dc-button.hollow.success:hover[disabled] {
+/* .o-dc-button.hollow.success:focus.disabled,.o-dc-button.hollow.success:focus[disabled],.o-dc-button.hollow.success:hover.disabled,.o-dc-button.hollow.success:hover[disabled] {
   border: 1px solid var(lightblue);
   color: var(lightblue)
-}
+} */
 
 .o-dc-button.hollow.warning {
   border: 1px solid #ffc724;
@@ -5192,10 +5195,10 @@ ol.no-bullet,ul.no-bullet {
   color: #926c00
 }
 
-.o-dc-button.hollow.warning:focus.disabled,.o-dc-button.hollow.warning:focus[disabled],.o-dc-button.hollow.warning:hover.disabled,.o-dc-button.hollow.warning:hover[disabled] {
+/* .o-dc-button.hollow.warning:focus.disabled,.o-dc-button.hollow.warning:focus[disabled],.o-dc-button.hollow.warning:hover.disabled,.o-dc-button.hollow.warning:hover[disabled] {
   border: 1px solid #ffc724;
   color: #ffc724
-}
+} */
 
 .o-dc-button.hollow.alert {
   border: 1px solid #f32836;
@@ -5207,10 +5210,10 @@ ol.no-bullet,ul.no-bullet {
   color: #860710
 }
 
-.o-dc-button.hollow.alert:focus.disabled,.o-dc-button.hollow.alert:focus[disabled],.o-dc-button.hollow.alert:hover.disabled,.o-dc-button.hollow.alert:hover[disabled] {
+/* .o-dc-button.hollow.alert:focus.disabled,.o-dc-button.hollow.alert:focus[disabled],.o-dc-button.hollow.alert:hover.disabled,.o-dc-button.hollow.alert:hover[disabled] {
   border: 1px solid #f32836;
   color: #f32836
-}
+} */
 
 .o-dc-button.hollow.white {
   border: 1px solid #fff;
@@ -5222,10 +5225,10 @@ ol.no-bullet,ul.no-bullet {
   color: gray
 }
 
-.o-dc-button.hollow.white:focus.disabled,.o-dc-button.hollow.white:focus[disabled],.o-dc-button.hollow.white:hover.disabled,.o-dc-button.hollow.white:hover[disabled] {
+/* .o-dc-button.hollow.white:focus.disabled,.o-dc-button.hollow.white:focus[disabled],.o-dc-button.hollow.white:hover.disabled,.o-dc-button.hollow.white:hover[disabled] {
   border: 1px solid #fff;
   color: #fff
-}
+} */
 
 .o-dc-button.clear {
   border: 1px solid var(--black);
@@ -5236,23 +5239,23 @@ ol.no-bullet,ul.no-bullet {
   background-color: transparent
 }
 
-.o-dc-button.clear.disabled,.o-dc-button.clear.disabled:focus,.o-dc-button.clear.disabled:hover,.o-dc-button.clear[disabled],.o-dc-button.clear[disabled]:focus,.o-dc-button.clear[disabled]:hover {
+/* .o-dc-button.clear.disabled,.o-dc-button.clear.disabled:focus,.o-dc-button.clear.disabled:hover,.o-dc-button.clear[disabled],.o-dc-button.clear[disabled]:focus,.o-dc-button.clear[disabled]:hover {
   background-color: transparent
-}
+} */
 
 .o-dc-button.clear:focus,.o-dc-button.clear:hover {
   border-color: #171816;
   color: #171816
 }
 
-.o-dc-button.clear:focus.disabled,.o-dc-button.clear:focus[disabled],.o-dc-button.clear:hover.disabled,.o-dc-button.clear:hover[disabled] {
+/* .o-dc-button.clear:focus.disabled,.o-dc-button.clear:focus[disabled],.o-dc-button.clear:hover.disabled,.o-dc-button.clear:hover[disabled] {
   border: 1px solid var(--black);
   color: var(--black)
-}
+} */
 
-.o-dc-button.clear,.o-dc-button.clear.disabled,.o-dc-button.clear:focus,.o-dc-button.clear:focus.disabled,.o-dc-button.clear:focus[disabled],.o-dc-button.clear:hover,.o-dc-button.clear:hover.disabled,.o-dc-button.clear:hover[disabled],.o-dc-button.clear[disabled] {
+/* .o-dc-button.clear,.o-dc-button.clear.disabled,.o-dc-button.clear:focus,.o-dc-button.clear:focus.disabled,.o-dc-button.clear:focus[disabled],.o-dc-button.clear:hover,.o-dc-button.clear:hover.disabled,.o-dc-button.clear:hover[disabled],.o-dc-button.clear[disabled] {
   border-color: transparent
-}
+} */
 
 .o-dc-button.clear.primary {
   border: 1px solid var(--black);
@@ -5264,10 +5267,10 @@ ol.no-bullet,ul.no-bullet {
   color: #171816
 }
 
-.o-dc-button.clear.primary:focus.disabled,.o-dc-button.clear.primary:focus[disabled],.o-dc-button.clear.primary:hover.disabled,.o-dc-button.clear.primary:hover[disabled] {
+/* .o-dc-button.clear.primary:focus.disabled,.o-dc-button.clear.primary:focus[disabled],.o-dc-button.clear.primary:hover.disabled,.o-dc-button.clear.primary:hover[disabled] {
   border: 1px solid var(--black);
   color: var(--black)
-}
+} */
 
 .o-dc-button.clear.primary,.o-dc-button.clear.primary.disabled,.o-dc-button.clear.primary:focus,.o-dc-button.clear.primary:focus.disabled,.o-dc-button.clear.primary:focus[disabled],.o-dc-button.clear.primary:hover,.o-dc-button.clear.primary:hover.disabled,.o-dc-button.clear.primary:hover[disabled],.o-dc-button.clear.primary[disabled] {
   border-color: transparent
@@ -5283,10 +5286,10 @@ ol.no-bullet,ul.no-bullet {
   color: #445826
 }
 
-.o-dc-button.clear.secondary:focus.disabled,.o-dc-button.clear.secondary:focus[disabled],.o-dc-button.clear.secondary:hover.disabled,.o-dc-button.clear.secondary:hover[disabled] {
+/* .o-dc-button.clear.secondary:focus.disabled,.o-dc-button.clear.secondary:focus[disabled],.o-dc-button.clear.secondary:hover.disabled,.o-dc-button.clear.secondary:hover[disabled] {
   border: 1px solid var(lightblue);
   color: var(lightblue)
-}
+} */
 
 .o-dc-button.clear.secondary,.o-dc-button.clear.secondary.disabled,.o-dc-button.clear.secondary:focus,.o-dc-button.clear.secondary:focus.disabled,.o-dc-button.clear.secondary:focus[disabled],.o-dc-button.clear.secondary:hover,.o-dc-button.clear.secondary:hover.disabled,.o-dc-button.clear.secondary:hover[disabled],.o-dc-button.clear.secondary[disabled] {
   border-color: transparent
@@ -5302,10 +5305,10 @@ ol.no-bullet,ul.no-bullet {
   color: #445826
 }
 
-.o-dc-button.clear.success:focus.disabled,.o-dc-button.clear.success:focus[disabled],.o-dc-button.clear.success:hover.disabled,.o-dc-button.clear.success:hover[disabled] {
+/* .o-dc-button.clear.success:focus.disabled,.o-dc-button.clear.success:focus[disabled],.o-dc-button.clear.success:hover.disabled,.o-dc-button.clear.success:hover[disabled] {
   border: 1px solid var(lightblue);
   color: var(lightblue)
-}
+} */
 
 .o-dc-button.clear.success,.o-dc-button.clear.success.disabled,.o-dc-button.clear.success:focus,.o-dc-button.clear.success:focus.disabled,.o-dc-button.clear.success:focus[disabled],.o-dc-button.clear.success:hover,.o-dc-button.clear.success:hover.disabled,.o-dc-button.clear.success:hover[disabled],.o-dc-button.clear.success[disabled] {
   border-color: transparent
@@ -5321,10 +5324,10 @@ ol.no-bullet,ul.no-bullet {
   color: #926c00
 }
 
-.o-dc-button.clear.warning:focus.disabled,.o-dc-button.clear.warning:focus[disabled],.o-dc-button.clear.warning:hover.disabled,.o-dc-button.clear.warning:hover[disabled] {
+/* .o-dc-button.clear.warning:focus.disabled,.o-dc-button.clear.warning:focus[disabled],.o-dc-button.clear.warning:hover.disabled,.o-dc-button.clear.warning:hover[disabled] {
   border: 1px solid #ffc724;
   color: #ffc724
-}
+} */
 
 .o-dc-button.clear.warning,.o-dc-button.clear.warning.disabled,.o-dc-button.clear.warning:focus,.o-dc-button.clear.warning:focus.disabled,.o-dc-button.clear.warning:focus[disabled],.o-dc-button.clear.warning:hover,.o-dc-button.clear.warning:hover.disabled,.o-dc-button.clear.warning:hover[disabled],.o-dc-button.clear.warning[disabled] {
   border-color: transparent
@@ -5340,10 +5343,10 @@ ol.no-bullet,ul.no-bullet {
   color: #860710
 }
 
-.o-dc-button.clear.alert:focus.disabled,.o-dc-button.clear.alert:focus[disabled],.o-dc-button.clear.alert:hover.disabled,.o-dc-button.clear.alert:hover[disabled] {
+/* .o-dc-button.clear.alert:focus.disabled,.o-dc-button.clear.alert:focus[disabled],.o-dc-button.clear.alert:hover.disabled,.o-dc-button.clear.alert:hover[disabled] {
   border: 1px solid #f32836;
   color: #f32836
-}
+} */
 
 .o-dc-button.clear.alert,.o-dc-button.clear.alert.disabled,.o-dc-button.clear.alert:focus,.o-dc-button.clear.alert:focus.disabled,.o-dc-button.clear.alert:focus[disabled],.o-dc-button.clear.alert:hover,.o-dc-button.clear.alert:hover.disabled,.o-dc-button.clear.alert:hover[disabled],.o-dc-button.clear.alert[disabled] {
   border-color: transparent
@@ -5359,10 +5362,10 @@ ol.no-bullet,ul.no-bullet {
   color: gray
 }
 
-.o-dc-button.clear.white:focus.disabled,.o-dc-button.clear.white:focus[disabled],.o-dc-button.clear.white:hover.disabled,.o-dc-button.clear.white:hover[disabled] {
+/* .o-dc-button.clear.white:focus.disabled,.o-dc-button.clear.white:focus[disabled],.o-dc-button.clear.white:hover.disabled,.o-dc-button.clear.white:hover[disabled] {
   border: 1px solid #fff;
   color: #fff
-}
+} */
 
 .o-dc-button.clear.white,.o-dc-button.clear.white.disabled,.o-dc-button.clear.white:focus,.o-dc-button.clear.white:focus.disabled,.o-dc-button.clear.white:focus[disabled],.o-dc-button.clear.white:hover,.o-dc-button.clear.white:hover.disabled,.o-dc-button.clear.white:hover[disabled],.o-dc-button.clear.white[disabled] {
   border-color: transparent
@@ -6590,6 +6593,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .o-dc-text-headline1,h2.o-dc-text-headline1 {
   font-family: FuturaPT-Bold;
+  text-transform: uppercase;
   /* font-style: normal; */
   /* font-weight: 400; */
   color: var(--black);
@@ -7487,7 +7491,11 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-splitblock-image .o-dc-video-bg-container {
-  padding-top: 100%
+  padding-top: 100%;
+}
+
+.o-dc-splitblock-image img {
+  border: 2px solid white;
 }
 
 .o-dc-video-bg {
@@ -7635,7 +7643,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background: rgba(255,255,255,.5)
+  background:var(--white)
 }
 
 @media screen and (max-width: 63.99875em) {
@@ -7760,7 +7768,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   outline: 0;
   width: 50px;
   height: 50px;
-  background: rgba(255,255,255,.5);
+  background:var(--white);
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -9137,7 +9145,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-splitblock-container.o-dc-splitblock-bg {
-  background: #f1f2f1
+  background: var(--beige);
 }
 
 .o-dc-splitblock-container.o-dc-splitblock-container-fuller {
@@ -9568,7 +9576,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .ehover12 {
-  background: #42b078
+  background: var(--lightblue)
 }
 
 .ehover12 img {
