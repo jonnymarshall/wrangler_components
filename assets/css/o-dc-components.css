@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "FuturaPT-Medium";
+  font-family: "FuturaPT-Medium" !important;
 }
 
 :root {
@@ -5031,8 +5031,8 @@ ol.no-bullet,ul.no-bullet {
 }
 
 .o-dc-button.white:focus,.o-dc-button.white:hover {
-  background-color: #ccc;
-  color: var(--black)
+  background-color: var(--black);
+  color: var(--white)
 }
 
 .o-dc-button.dark {
@@ -7471,7 +7471,8 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 100%
+  padding-top: 100%;
+  border: 2px solid black;
 }
 
 @media print,screen and (min-width: 40em) {
@@ -7495,7 +7496,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-splitblock-image img {
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .o-dc-video-bg {
@@ -8458,7 +8459,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 }
 
 .o-dc-card.card-bg {
-  background: #f1f2f1
+  background: var(--beige)
 }
 
 .o-dc-card.card3 {
@@ -8762,11 +8763,17 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   font-size: inherit;
   line-height: 1.6;
   text-rendering: optimizeLegibility;
-  color: var(--black);
-  color: var(--black);
+  color: var(--primary);
   line-height: 1;
   margin-bottom: 0;
-  font-size: 1rem
+  font-size: 1rem;
+  display: inline;
+}
+
+.o-dc-card-price.old {
+  color: var(--black);
+  text-decoration: line-through;
+  margin-right: 0.75rem;
 }
 
 @media print,screen and (min-width: 40em) {
@@ -10441,4 +10448,10 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce
+}
+
+
+/* Accordion menu */
+.c-accordion .o-dc-button {
+  margin: 0px;
 }
