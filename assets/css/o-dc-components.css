@@ -10485,7 +10485,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .price {
  display: inline;
- font-family: "Bebas Neue Bold";
+ font-size: 18px;
 }
 
 .price.price--old {
