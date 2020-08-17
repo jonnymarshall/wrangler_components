@@ -10455,3 +10455,87 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .c-accordion .o-dc-button {
   margin: 0px;
 }
+
+/* Cards */
+
+.c-card:hover {
+  color: inherit; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+.c-card {
+ padding: 5%;
+}
+
+.c-card .c-carousel-content {
+ margin-bottom: 10px;
+}
+
+.c-card:hover {
+ outline: 1px solid black;
+}
+.color-swatch {
+ width: 20px;
+ height: 20px;
+ display: inline-block;
+ border: 1px solid var(--black);
+ margin-top: 0.5rem;
+}
+
+.price {
+ display: inline;
+ font-family: "Bebas Neue Bold";
+}
+
+.price.price--old {
+ text-decoration: line-through;
+ margin-right: 0.75rem;
+}
+
+.price.price--new {
+ color: var(--dark-red);
+}
+
+.c-card .card-info-section {
+ position: relative;
+}
+
+.c-card .add-to-basket {
+ width: 30px;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+}
+
+.c-card .product-name {
+ margin-bottom: 0.4rem;
+ margin-right: 34px;
+}
+
+.temp-carousel-toggle {
+ width: 50px;
+ height: 50px;
+ background-color: red;
+}
+
+.c-carousel-controls {
+ display: flex;
+ justify-content: space-between;
+}
+
+.c-card .image-container {
+ height: 280px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: FuturaPT-Bold;
+}
+
+/* Utilities */
+
+.mt-0 {
+  margin-top: 0px;
+}
