@@ -10456,7 +10456,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   margin: 0px;
 }
 
-/* Cards */
+/* Product Cards */
 
 .c-card:hover {
   color: inherit; 
@@ -10526,6 +10526,12 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .c-card .image-container {
  height: 280px;
+}
+
+/* Cards */
+
+.o-dc-card-text.centered {
+  text-align: center;
 }
 
 /* Headings */
