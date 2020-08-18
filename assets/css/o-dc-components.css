@@ -4822,14 +4822,14 @@ ol.no-bullet,ul.no-bullet {
   border-radius: 0;
   -webkit-transition: background-color .25s ease-out,color .25s ease-out;
   transition: background-color .25s ease-out,color .25s ease-out;
-  font-family: FuturaPT-Medium;
+  font-family: FuturaPT-Bold;
   font-size: .875rem;
   -webkit-appearance: none;
   line-height: 1;
   text-align: center;
   cursor: pointer;
   background-color: var(--primary-red);
-  color: #fff
+  color: #fff;
 }
 
 [data-whatinput=mouse] .o-dc-button {
