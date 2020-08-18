@@ -4817,7 +4817,7 @@ ol.no-bullet,ul.no-bullet {
   display: inline-block;
   vertical-align: middle;
   margin: 0 0 1rem 0;
-  padding: 1em 2em;
+  padding: 1em;
   border: 1px solid transparent;
   border-radius: 0;
   -webkit-transition: background-color .25s ease-out,color .25s ease-out;
