@@ -10458,6 +10458,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 /* Accordion menu */
 .c-accordion .o-dc-button {
   margin: 0px;
+  width: 100%;
 }
 
 /* Product Cards */
@@ -10548,4 +10549,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .mt-0 {
   margin-top: 0px;
+}
+
+.c-accordion .main-selector {
+  border-bottom: 1px solid white;
 }
