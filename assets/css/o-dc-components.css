@@ -10554,3 +10554,8 @@ h1, h2, h3, h4, h5, h6 {
 .c-accordion .main-selector {
   border-bottom: 1px solid white;
 }
+
+/* Showcasing Layout */
+.c-component-showcase .col-12 > * {
+  display: table;
+}
