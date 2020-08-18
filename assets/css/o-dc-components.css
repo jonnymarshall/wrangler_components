@@ -5027,7 +5027,11 @@ ol.no-bullet,ul.no-bullet {
 
 .o-dc-button.white {
   background-color: #fff;
-  color: var(--black)
+  color: var(--black);
+}
+
+.o-dc-button.white.outline {
+  outline: 2px solid var(--black);
 }
 
 .o-dc-button.white:focus,.o-dc-button.white:hover {
