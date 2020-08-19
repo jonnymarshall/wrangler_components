@@ -7386,9 +7386,9 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   margin: 0
 }
 
-.amp-dc-banner .amp-dc-banner-info .o-dc-button,.amp-dc-banner .amp-dc-banner-info .o-dc-cta-underline {
+/* .amp-dc-banner .amp-dc-banner-info .o-dc-button,.amp-dc-banner .amp-dc-banner-info .o-dc-cta-underline {
   margin: 1.25rem 0 0 0
-}
+} */
 
 .o-dc-disclaimer-text {
   position: absolute;
