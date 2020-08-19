@@ -10559,3 +10559,8 @@ h1, h2, h3, h4, h5, h6 {
 .c-component-showcase .col-12 > * {
   display: table;
 }
+
+/* Title */
+.c-title .o-dc-button {
+  width: 100%;
+}
