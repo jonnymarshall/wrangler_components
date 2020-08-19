@@ -4816,7 +4816,7 @@ ol.no-bullet,ul.no-bullet {
 .o-dc-button {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 0 1rem 0;
+  /* margin: 0 0 1rem 0; */
   padding: 1em;
   border: 1px solid transparent;
   border-radius: 0;
@@ -8361,7 +8361,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   .o-dc-card-list-large-image-left .o-dc-card-text,.o-dc-card-list-large-image-right .o-dc-card-text,.o-dc-card-list-stack .o-dc-card-text {
       width: 70%;
       text-align: left;
-      padding: 0 0 0 1.875rem
+      /* padding: 0 0 0 1.875rem */
   }
 
   .o-dc-card-list-large-image-left .o-dc-text-panel,.o-dc-card-list-large-image-right .o-dc-text-panel,.o-dc-card-list-stack .o-dc-text-panel {
@@ -8426,9 +8426,9 @@ ul.compo-module-items a:not(.o-dc-button):hover {
       margin-bottom:0
   }
 
-  .o-dc-card-list-horizontal .o-dc-card-text,.o-dc-card-list-small-image-left .o-dc-card-text,.o-dc-card-list-small-image-right .o-dc-card-text {
+  /* .o-dc-card-list-horizontal .o-dc-card-text,.o-dc-card-list-small-image-left .o-dc-card-text,.o-dc-card-list-small-image-right .o-dc-card-text {
       padding: 1rem 0 0 0
-  }
+  } */
 
   .o-dc-card-list-horizontal .o-dc-card-title,.o-dc-card-list-small-image-left .o-dc-card-title,.o-dc-card-list-small-image-right .o-dc-card-title {
       font-size: .875rem
@@ -8453,9 +8453,9 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   }
 }
 
-.o-dc-card {
+/* .o-dc-card {
   margin-bottom: 1rem
-}
+} */
 
 .o-dc-card a {
   display: block;
@@ -8644,13 +8644,13 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .o-dc-text-panel {
   width: 100%;
-  padding-bottom: 1.25rem
+  padding-bottom: 0.5rem
 }
 
 .card3 .o-dc-text-panel {
   padding-bottom: .66667rem
 }
-
+/* 
 .o-dc-card-text {
   padding: .625rem .625rem 1rem .625rem
 }
@@ -8683,7 +8683,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   .card4 .o-dc-card-text {
       padding:1rem 0 1.875rem 0
   }
-}
+} */
 
 .o-dc-card-title {
   font-family: FuturaPT-Bold;
@@ -10529,10 +10529,6 @@ ul.compo-module-items a:not(.o-dc-button):hover {
  justify-content: space-between;
 }
 
-.c-card .image-container {
- height: 280px;
-}
-
 /* Cards */
 
 .o-dc-card-text.centered {
@@ -10558,6 +10554,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Showcasing Layout */
 .c-component-showcase .col-12 > * {
   display: table;
+  margin-bottom: 20px;
 }
 
 /* Title */
