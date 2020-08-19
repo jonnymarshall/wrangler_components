@@ -10461,6 +10461,44 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   width: 100%;
 }
 
+/* Marketing Banner */
+
+.c-marketing-banner .c-marketing-banner-content {
+  background-color: var(--primary-red);
+  color: var(--white);
+  padding: 5px;
+}
+
+.c-marketing-banner .c-marketing-banner-content p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.c-marketing-banner .carousel-control-next, .carousel-control-prev {
+  top: initial !important;
+  bottom: 5px !important;
+  opacity: 1 !important;
+}
+
+.c-marketing-banner__link {
+  display: flex;
+  margin-right: 20px;
+  color: var(--white);
+}
+
+.c-marketing-banner__link:hover {
+  color: var(--white);
+}
+
+.c-marketing-banner__link:not(:last-child):after {
+  margin-left: 20px;
+  content: "∙";
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  height: 15px;
+}
+
 /* Product Cards */
 
 .c-card:hover {
