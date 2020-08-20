@@ -10599,3 +10599,12 @@ h1, h2, h3, h4, h5, h6 {
 .c-title .o-dc-button {
   width: 100%;
 }
+
+/* Splitblock */
+.c-splitblock--bg {
+  background-color: var(--beige);
+}
+
+.c-splitblock__img-container {
+  border: 2px solid black;
+}
