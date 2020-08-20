@@ -10584,10 +10584,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
 }
 
-.c-accordion .main-selector {
-  border-bottom: 1px solid white;
-}
-
 /* Showcasing Layout */
 .c-component-showcase .col-12 > * {
   display: table;
@@ -10611,4 +10607,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Banner-lower-button */
 .button-container.on-image {
   bottom: 2rem;
+}
+
+.c-accordion .secondary-selector {
+  border-bottom: 1px solid var(--white);
 }
