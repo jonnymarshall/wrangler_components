@@ -15,7 +15,7 @@
   font-style: normal;
 }
 
-body {
+body, p {
   font-family: "FuturaPT-Medium" !important;
 }
 
@@ -8730,21 +8730,20 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 
 .card4 .o-dc-card-title {
   text-transform: uppercase;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .o-dc-card-copy,.o-dc-card-copy p,.o-dc-text-panel p {
-  margin-bottom: 1rem;
-  font-size: inherit;
+  /* margin-bottom: 1rem; */
+  /* font-size: inherit; */
   line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  color: var(--black);
+  /* text-rendering: optimizeLegibility; */
   color: var(--black);
   margin-bottom: 0;
-  font-size: .75rem
+  font-size: .9rem
 }
 
-@media print,screen and (min-width: 40em) {
+/* @media print,screen and (min-width: 40em) {
   .o-dc-card-copy,.o-dc-card-copy p,.o-dc-text-panel p {
       font-size:1rem
   }
@@ -8760,7 +8759,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   .o-dc-card-copy,.o-dc-card-copy p,.o-dc-text-panel p {
       font-size:1rem
   }
-}
+} */
 
 .o-dc-card-price {
   margin-bottom: 1rem;
