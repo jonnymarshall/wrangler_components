@@ -10460,6 +10460,10 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   width: 100%;
 }
 
+.c-accordion .secondary-selector {
+  border-bottom: 1px solid var(--white);
+}
+
 /* Marketing Banner */
 
 .c-marketing-banner .c-marketing-banner-content {
@@ -10607,8 +10611,4 @@ h1, h2, h3, h4, h5, h6 {
 /* Banner-lower-button */
 .button-container.on-image {
   bottom: 2rem;
-}
-
-.c-accordion .secondary-selector {
-  border-bottom: 1px solid var(--white);
 }
