@@ -10453,6 +10453,10 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   animation-name: bounce
 }
 
+/* CSS Reset */
+button:focus {
+  outline: none !important;
+}
 
 /* Accordion menu */
 .c-accordion .o-dc-button {
