@@ -4815,19 +4815,15 @@ ol.no-bullet,ul.no-bullet {
 
 .o-dc-button {
   display: inline-block;
-  vertical-align: middle;
-  /* margin: 0 0 1rem 0; */
-  padding: 1em;
+  padding: 14px 12px 11px 12px;
   border: 1px solid transparent;
-  border-radius: 0;
   -webkit-transition: background-color .25s ease-out,color .25s ease-out;
   transition: background-color .25s ease-out,color .25s ease-out;
   font-family: FuturaPT-Bold;
   font-size: .875rem;
-  -webkit-appearance: none;
-  line-height: 1;
-  text-align: center;
   cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: .125rem;
   background-color: var(--primary-red);
   color: #fff;
 }
@@ -6272,15 +6268,6 @@ a.o-dc-button:focus,a.o-dc-button:hover {
   .hide-for-landscape,.show-for-portrait {
       display:block!important
   }
-}
-
-.o-dc-button {
-  text-decoration: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: .125rem;
-  border: none;
-  line-height: 1.1
 }
 
 @media screen and (max-width: 39.99875em) {
