@@ -6844,211 +6844,78 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   z-index: 2
 }
 
-.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-left:before,.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad:before {
+/* Gradients */
+
+.c-gradient {
   content: "";
-  background: -webkit-gradient(linear,right top,left top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 100%
+}
+
+.c-gradient--black--left {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
   background: linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,.6));
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100%
 }
 
-@media print,screen and (min-width: 40em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-left:before,.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad:before {
-      width:80%
-  }
-}
-
-@media print,screen and (min-width: 64em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-left:before,.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad:before {
-      width:70%
-  }
-}
-
-@media screen and (min-width: 75em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-left:before,.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad:before {
-      width:60%
-  }
-}
-
-.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-right:before {
-  content: "";
-  background: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
+.c-gradient--black--right {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
   background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.6));
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  top: 0;
-  right: 0;
-  height: 100%
 }
 
-@media print,screen and (min-width: 40em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-right:before {
-      width:80%
-  }
-}
-
-@media print,screen and (min-width: 64em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-right:before {
-      width:70%
-  }
-}
-
-@media screen and (min-width: 75em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-right:before {
-      width:60%
-  }
-}
-
-.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-top:before {
-  content: "";
-  background: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
+.c-gradient--black--top {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
   background: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,.6));
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100%
 }
 
-@media print,screen and (min-width: 40em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-top:before {
-      height:60%
-  }
-}
-
-@media print,screen and (min-width: 64em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-top:before {
-      height:80%
-  }
-}
-
-@media screen and (min-width: 75em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-top:before {
-      height:60%
-  }
-}
-
-.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-bottom:before {
-  content: "";
-  background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
+.c-gradient--black--bottom {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
   background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.6));
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  height: 100%
 }
 
-@media print,screen and (min-width: 40em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-bottom:before {
-      height:60%
+.c-gradient--white--left {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(256,256,256,0)),to(rgba(256,256,256,.6))); */
+  background: linear-gradient(to left,rgba(256,256,256,0),rgba(256,256,256,.6));
+}
+
+.c-gradient--white--right {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
+  background: linear-gradient(to right,rgba(256,256,256,0),rgba(256,256,256,.6));
+}
+
+.c-gradient--white--top {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
+  background: linear-gradient(to top,rgba(256,256,256,0),rgba(256,256,256,.6));
+}
+
+.c-gradient--white--bottom {
+  /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
+  background: linear-gradient(to bottom,rgba(256,256,256,0),rgba(256,256,256,.6));
+}
+
+@media print,screen and (max-width: 768px) {
+  .c-gradient--black--right {
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.6));
   }
-}
-
-@media print,screen and (min-width: 64em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-bottom:before {
-      height:80%
+  .c-gradient--black--left {
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.6));
   }
-}
-
-@media screen and (min-width: 75em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-bottom:before {
-      height:60%
+  .c-gradient--black--top {
+    /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.6));
   }
-}
-
-.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-middle:before {
-  content: "";
-  background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
-  background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.6));
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  height: 100%
-}
-
-@media print,screen and (min-width: 40em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-middle:before {
-      height:100%
+  .c-gradient--white--right {
+    background: linear-gradient(to bottom,rgba(256,256,256,0),rgba(256,256,256,.6));
   }
-}
-
-@media screen and (max-width: 39.99875em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-full-sm:before,.amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-full:before {
-      content:"";
-      background: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
-      background: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,.6));
-      position: absolute;
-      z-index: 0;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%
+  .c-gradient--white--left {
+    background: linear-gradient(to bottom,rgba(256,256,256,0),rgba(256,256,256,.6));
   }
-}
-
-@media screen and (max-width: 39.99875em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-left-sm:before {
-      content:"";
-      background: -webkit-gradient(linear,right top,left top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
-      background: linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,.6));
-      position: absolute;
-      z-index: 0;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%
-  }
-}
-
-@media screen and (max-width: 39.99875em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-right-sm:before {
-      content:"";
-      background: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
-      background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.6));
-      position: absolute;
-      z-index: 0;
-      width: 100%;
-      top: 0;
-      right: 0;
-      height: 100%
-  }
-}
-
-@media screen and (max-width: 39.99875em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-bottom-sm:before {
-      content:"";
-      background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
-      background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.6));
-      position: absolute;
-      z-index: 0;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%
-  }
-}
-
-@media screen and (max-width: 39.99875em) {
-  .amp-dc-banner .amp-dc-banner-info-wrap.o-dc-banner-info-grad-text-top-sm:before {
-      content:"";
-      background: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6)));
-      background: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,.6));
-      position: absolute;
-      z-index: 0;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%
+  .c-gradient--white--top {
+    /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,.6))); */
+    background: linear-gradient(to bottom,rgba(256,256,256,0),rgba(256,256,256,.6));
   }
 }
 
