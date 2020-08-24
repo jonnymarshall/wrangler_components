@@ -6282,14 +6282,7 @@ a.o-dc-button:focus,a.o-dc-button:hover {
 }
 
 .o-dc-cta-underline {
-  /* text-decoration: none; */
-  /* cursor: pointer; */
-  /* display: inline-block; */
-  /* margin: 0; */
-  /* padding: 0 0 .125rem 0;
-  font-size: .875rem;
-  letter-spacing: .125rem;
-  line-height: 1; */
+  line-height: 25px;
   text-transform: uppercase;
   /* border: 0; */
   border-bottom: 1px solid;
