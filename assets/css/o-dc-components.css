@@ -6315,7 +6315,11 @@ a.o-dc-button:focus,a.o-dc-button:hover {
 }
 
 .o-dc-cta-underline.o-dc-text-bold {
-  border-bottom-width: 2px
+  border-bottom-width: 2px;
+}
+
+.o-dc-cta-underline.o-dc-text-bold:hover {
+  color: var(--primary-red);
 }
 
 .o-dc-cta-underline.small {
