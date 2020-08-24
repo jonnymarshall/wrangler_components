@@ -10324,6 +10324,32 @@ button:focus {
   border-bottom: 1px solid var(--white);
 }
 
+.c-accordion .collapsed > div {
+  background-color: blue;
+}
+
+.c-accordion .toggler-arrow {
+  height: 21px;
+  transform: rotate(90deg);
+}
+
+.c-accordion .collapsed > .toggler-arrow {
+  transform: rotate(0deg);
+}
+
+.c-accordion .main-selector {
+  border: 0px;
+}
+
+.c-accordion .main-selector > * {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
 /* Marketing Banner */
 
 .c-marketing-banner .c-marketing-banner-content {
