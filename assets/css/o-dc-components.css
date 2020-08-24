@@ -10350,7 +10350,6 @@ button:focus {
   display: flex;
   margin-right: 10px;
   color: var(--white);
-  text-decoration: underline;
 }
 
 .c-marketing-banner__link:hover {
