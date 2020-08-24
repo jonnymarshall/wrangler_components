@@ -10474,6 +10474,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Subnavigation */
 
+.c-subnav-row {
+  border-bottom: 1px solid black;
+}
+
 .c-subnav-link:hover {
   background-color: var(--beige)
 }
