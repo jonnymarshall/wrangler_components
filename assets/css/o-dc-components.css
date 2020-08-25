@@ -10346,6 +10346,29 @@ button:focus {
   user-select: none;
 }
 
+.c-subnav-accordion .toggler-arrow {
+  height: 21px;
+  right: 10px;
+  top: 12px;
+  transform: rotate(90deg);
+}
+
+.c-subnav-accordion .collapsed > .toggler-arrow {
+  transform: rotate(0deg);
+}
+
+.c-subnav-accordion .secondary-button {
+  padding: 14px;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+
+.c-subnav-accordion .secondary-button:hover {
+  color: white;
+  background-color: var(--primary-red);
+}
+
 /* Marketing Banner */
 
 .c-marketing-banner .c-marketing-banner-content {
