@@ -10324,10 +10324,6 @@ button:focus {
   border-bottom: 1px solid var(--white);
 }
 
-.c-accordion .collapsed > div {
-  background-color: blue;
-}
-
 .c-accordion .toggler-arrow {
   height: 21px;
   transform: rotate(90deg);
@@ -10449,6 +10445,28 @@ button:focus {
 .c-carousel-controls {
  display: flex;
  justify-content: space-between;
+}
+
+.c-card .color-swatch {
+  position: relative;
+}
+
+.c-card .color-swatch .active-tick {
+  display: none;
+}
+
+.c-card .color-swatch.active .active-tick {
+  position: absolute;
+  top: -3px;
+  display: block;
+}
+
+.swatch-container {
+  padding: 2px !important;
+}
+
+.price-container {
+  line-height: 1.2;
 }
 
 /* Cards */
