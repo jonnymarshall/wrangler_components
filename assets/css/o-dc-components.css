@@ -10476,6 +10476,7 @@ button:focus {
   cursor: pointer;
   border: 2px solid;
   padding: 2px;
+  height: 30px;
 }
 
 /* Cards */
