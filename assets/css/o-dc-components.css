@@ -10555,6 +10555,16 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid black;
 }
 
+.c-subnav-link {
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .c-subnav-link {
+    text-align: center;
+  }
+}
+
 .c-subnav-link:hover {
   background-color: var(--beige)
 }
