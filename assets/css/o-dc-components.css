@@ -10469,6 +10469,15 @@ button:focus {
   line-height: 1.2;
 }
 
+.expand-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  border: 2px solid;
+  padding: 2px;
+}
+
 /* Cards */
 
 .o-dc-card-text.centered {
