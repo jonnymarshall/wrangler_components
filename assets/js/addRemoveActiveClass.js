@@ -3,7 +3,7 @@ const myFunction = () => {
 
   colorSwatches.forEach((el) => {
     el.addEventListener("click", (e) => {
-      const parentCarousel = document.getElementById(e.target.dataset.target.slice(1))
+      const parentCarousel = document.getElementById(e.target.parentElement.dataset.target.slice(1))
       const allSiblingSwatches = parentCarousel.querySelectorAll(".color-swatch")
 
       allSiblingSwatches.forEach((swatch) => {
