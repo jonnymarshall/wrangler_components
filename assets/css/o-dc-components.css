@@ -10498,8 +10498,16 @@ button:focus {
   right: 15px;
   cursor: pointer;
   border: 2px solid;
+  border-radius: 100%;
   padding: 2px;
   height: 30px;
+  transition: 750ms ease;
+  transition-property: all;
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+.expand-icon:hover {
+  background-color: rgba(204, 153, 0, 0.75);
 }
 
 /* Cards */
