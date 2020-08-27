@@ -10598,6 +10598,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 750ms ease;
   transition-property: all;
   border-radius: 100%;
+  height: 35px;
 }
 
 .hotspot__point--black {
@@ -10610,18 +10611,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .hotspot__point:hover {
   transform: rotate(45deg) scale(1.15);
-  background-color: rgba(159, 43, 37, 0.75);
+  background-color: rgba(204, 153, 0, 0.75);
   border-radius: 100%;
-}
-
-.hotspot__point--large {
-  height: 15%;
-}
-
-.hotspot__point--medium {
-  height: 10%;
-}
-
-.hotspot__point--small {
-  height: 5%;
 }
