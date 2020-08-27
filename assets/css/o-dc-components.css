@@ -10519,8 +10519,16 @@ button:focus {
   bottom: 0;
 }
 
-.swatch-pagination {
+/* .swatch-pagination {
   display: inline-flex;
+} */
+
+.c-card .image-container > img {
+  display: none;
+}
+
+.c-card .image-container > img.active {
+  display: block;
 }
 
 /* Cards */
@@ -10539,6 +10547,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .mt-0 {
   margin-top: 0px;
+}
+
+.active {
+  display: block;
 }
 
 /* Showcasing Layout */
