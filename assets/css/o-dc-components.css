@@ -10519,6 +10519,10 @@ button:focus {
   bottom: 0;
 }
 
+.swatch-pagination {
+  display: inline-flex;
+}
+
 /* Cards */
 
 .o-dc-card-text.centered {
