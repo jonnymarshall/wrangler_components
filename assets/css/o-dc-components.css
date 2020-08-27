@@ -25,6 +25,7 @@ body, p {
   --white: #FFFFFF;
   --dark-red: #7B221D;
   --grey: #C5C5C5;
+  --light-grey: #F4F4F4;
   --lightblue: #00529F;
   --beige:  #D3D0BF;
 }
@@ -10575,14 +10576,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
-@media (max-width: 576px) {
-  .c-subnav-link {
-    text-align: center;
-  }
-}
-
 .c-subnav-link:hover {
-  background-color: var(--beige)
+  background-color: var(--light-grey)
 }
 
 /* Hotspot */
