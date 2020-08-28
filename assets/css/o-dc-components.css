@@ -25,6 +25,7 @@ body, p {
   --white: #FFFFFF;
   --dark-red: #7B221D;
   --grey: #C5C5C5;
+  --dark-grey: #404040;
   --light-grey: #F4F4F4;
   --lightblue: #00529F;
   --beige:  #D3D0BF;
@@ -10624,4 +10625,70 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(45deg) scale(1.15);
   background-color: rgba(204, 153, 0, 0.75);
   border-radius: 100%;
+}
+
+/* Flickety Carousel */
+.carousel {
+  background:white;
+}
+
+.flickity-slider {
+  margin-top: 1px;
+}
+
+.carousel-cell {
+  width: 33%;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.flickity-button.flickity-prev-next-button {
+  top: 40%;
+  border-radius: 0px;
+  color: white;
+  background-color: var(--primary-red);
+  -webkit-transition: background-color .25s ease-out,color .25s ease-out;
+  transition: background-color .25s ease-out,color .25s ease-out;
+}
+
+.flickity-button.flickity-prev-next-button:hover {
+  border-radius: 0px;
+  color: white;
+  background-color: var(--dark-red);
+}
+
+.flickity-button.flickity-prev-next-button.next {
+  right: -50px;
+}
+
+.flickity-button.flickity-prev-next-button.previous {
+  left: -50px;
+}
+
+.flickity-page-dots .dot {
+  background-color: var(--dark-grey) !important;
+}
+
+@media (max-width: 960px) {
+  .carousel-cell {
+    width: 40%;
+  }
+}
+
+@media (max-width: 720px) {
+  .carousel-cell {
+    width: 60%;
+  }
+}
+
+@media (max-width: 540px) {
+  .carousel-cell {
+    width: 80%;
+  }
+}
+
+.card-lower-spacer {
+  height: 2px;
 }
