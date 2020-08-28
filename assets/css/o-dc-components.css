@@ -10562,7 +10562,7 @@ button:focus {
   display: inline-flex;
 } */
 
-.c-card .image-container > img {
+.c-card .image-container .product-image {
   display: none;
 }
 
