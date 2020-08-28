@@ -10404,6 +10404,44 @@ button:focus {
   margin-right: 0px;
 }
 
+.carousel-control-next {
+  justify-content: flex-end !important;
+  margin-right: 10px;
+  z-index: 3 !important;
+}
+
+.carousel-control-prev {
+  justify-content: flex-start !important;
+  margin-left: 10px;
+  z-index: 3 !important;
+}
+
+.carousel-control-next-icon {
+  z-index: 1;
+}
+
+.carousel-control-prev-icon {
+  justify-content: flex-start !important;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.c-marketing-banner .blocker {
+  width: 50px;
+  height:  100%;
+  background: var(--primary-red);
+  position: absolute;
+  z-index: 2;
+}
+
+.c-marketing-banner .blocker.blocker--left {
+  left: 0;
+}
+
+.c-marketing-banner .blocker.blocker--right {
+  right: 0;
+}
+
 /* Product Cards */
 
 .c-card:hover {
