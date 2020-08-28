@@ -8594,7 +8594,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
 .o-dc-card-copy,.o-dc-card-copy p,.o-dc-text-panel p {
   /* margin-bottom: 1rem; */
   /* font-size: inherit; */
-  line-height: 1.6;
+  line-height: 1.3;
   /* text-rendering: optimizeLegibility; */
   color: var(--black);
   margin-bottom: 0;
