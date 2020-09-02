@@ -8515,7 +8515,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   margin-bottom: 5px;
   text-transform: uppercase;
   letter-spacing: .075rem;
-  font-size: 1rem
+  font-size: 1.25rem
 }
 
 @media print,screen and (min-width: 40em) {
@@ -8557,7 +8557,7 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   /* text-rendering: optimizeLegibility; */
   color: var(--black);
   margin-bottom: 0;
-  font-size: .9rem
+  font-size: 1rem
 }
 
 /* @media print,screen and (min-width: 40em) {
