@@ -10697,3 +10697,27 @@ h1, h2, h3, h4, h5, h6 {
 .card-lower-spacer {
   height: 2px;
 }
+
+
+/* Slick Slider */
+/* .slick-prev:before, .slick-next:before {
+color: black !important;
+} */
+
+.c-arrow {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+}
+
+.c-arrow--prev {
+  background-color: blue;
+  left: 0;
+}
+
+.c-arrow--next {
+  background-color: red;
+  right: 0;
+}
