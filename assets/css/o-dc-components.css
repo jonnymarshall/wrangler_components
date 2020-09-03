@@ -26,7 +26,8 @@ body, p {
   --dark-red: #7B221D;
   --grey: #C5C5C5;
   --dark-grey: #404040;
-  --light-grey: #F4F4F4;
+  --light-grey-s1: #F4F4F4;
+  --light-grey-s2: #c5c5c5;
   --lightblue: #00529F;
   --beige:  #D3D0BF;
 }
@@ -10595,7 +10596,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .c-subnav-link:hover {
-  background-color: var(--light-grey)
+  background-color: var(--light-grey-s1)
+}
+
+.c-subnav-link:focus {
+  background-color: var(--light-grey-s2);
 }
 
 /* Hotspot */
