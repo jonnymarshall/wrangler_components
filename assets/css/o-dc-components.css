@@ -10731,6 +10731,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--primary-red);
 }
 
+@media (max-width: 576px) {
+  .c-arrow {
+    display: none !important;
+  }
+}
+
 .c-arrow--prev {
   left: 0;
 }
