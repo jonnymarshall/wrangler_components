@@ -10518,6 +10518,12 @@ button:focus {
   background-color: rgba(256, 256, 256, 0.5);
 }
 
+@media (max-width: 576px) {
+  .expand-icon {
+    display: none !important;
+  }
+}
+
 .expand-icon:hover {
   background-color: rgba(159, 43, 37, 0.75);
 }
