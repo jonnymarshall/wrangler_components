@@ -8517,24 +8517,24 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   margin-bottom: 5px;
   text-transform: uppercase;
   letter-spacing: .075rem;
-  font-size: 1.25rem
+  font-size: 1.5rem
 }
 
-@media print,screen and (min-width: 40em) {
+@media print,screen and (min-width: 576px) {
   .o-dc-card-title {
-      font-size:1.375rem
+      font-size:1.53rem
   }
 }
 
-@media print,screen and (min-width: 64em) {
+@media print,screen and (min-width: 576px) {
   .o-dc-card-title {
-      font-size:1.125rem
+      font-size:1.57rem
   }
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (min-width: 768px) {
   .o-dc-card-title {
-      font-size:1.375rem
+      font-size:1.6rem
   }
 }
 
@@ -10555,6 +10555,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Utilities */
+
+.u-min-w-360px {
+  min-width: 360px;
+}
 
 .mt-0 {
   margin-top: 0px;
