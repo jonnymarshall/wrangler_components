@@ -5045,7 +5045,8 @@ ol.no-bullet,ul.no-bullet {
 
 .o-dc-button.dark:focus,.o-dc-button.dark:hover {
   background-color: var(--white) !important;
-  color: var(--black)
+  color: var(--black);
+  outline: 2px solid var(--black)
 }
 
 .o-dc-button.disabled,.o-dc-button[disabled] {
