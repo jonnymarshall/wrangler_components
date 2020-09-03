@@ -385,32 +385,37 @@
           slidesToShow: 4,
           prevArrow: '<button type="button u-transparent position-relative" class="c-arrow c-arrow--prev"><img class="c-arrow__icon c-arrow__icon--prev position-absolute" src="assets/svg/iconfinder_icon-ios7-arrow-forward_211688--white.svg"></img></button>',
           nextArrow: '<button type="button u-transparent position-relative" class="c-arrow c-arrow--next"><img class="c-arrow__icon c-arrow__icon--next position-absolute" src="assets/svg/iconfinder_icon-ios7-arrow-forward_211688--white.svg"></img></button>',
+          // dots: true,
           responsive: [
           {
               breakpoint: 992,
               settings: {
-                arrows: true,
+                // arrows: true,
                 // centerMode: false,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 3,
+                // dots: true,
+                appendDots: $
               }
             },
             {
               breakpoint: 768,
               settings: {
-                arrows: true,
+                // arrows: true,
                 // centerMode: false,
                 centerPadding: '40px',
-                slidesToShow: 2
+                slidesToShow: 2,
+                // dots: true
               }
             },
             {
               breakpoint: 576,
               settings: {
-                arrows: true,
+                // arrows: true,
                 // centerMode: false,
                 centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 1,
+                dots: true
               }
             }
           ]
