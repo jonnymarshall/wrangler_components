@@ -10330,6 +10330,10 @@ button:focus {
   background-color: var(--primary-red);
 }
 
+.c-subnav-accordion .card:not(:last-child) {
+  border-bottom: 0px;
+}
+
 /* Marketing Banner */
 
 .c-marketing-banner .c-marketing-banner-content {
