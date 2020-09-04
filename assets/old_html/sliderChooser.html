@@ -1,7 +1,0 @@
-{{#if (test this.[@type] (toRegex ".*/video")) ~}}
-{{> video this }}
-{{else if (test this.[@type] (toRegex ".*/banner")) ~}}
-{{> banner this }}
-{{else}}
-{{> image this }}
-{{~/if}}
