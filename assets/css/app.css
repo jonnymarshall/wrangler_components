@@ -4367,10 +4367,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--light-grey-s1)
 }
 
-.c-subnav-link:focus {
-  background-color: var(--light-grey-s2);
-}
-
 /* Hotspot */
 .hotspot__image {
   width: 100%;
