@@ -6596,11 +6596,19 @@ ul.compo-module-items a:not(.o-dc-button):hover {
   color: var(--black);
   text-rendering: optimizeLegibility;
   text-align: inherit;
-  line-height: 1.1;
+  line-height: 3.5rem;
   margin-top: 0;
   margin-bottom: .625rem;
   letter-spacing: .075rem;
   font-size: 1.75rem
+}
+
+.o-dc-text-headline1.o-dc-text-headline1-small,h2.o-dc-text-headline1.o-dc-text-headline1-small {
+  line-height: 2.4rem;
+}
+
+.o-dc-text-headline1.o-dc-text-headline1-large,h2.o-dc-text-headline1.o-dc-text-headline1-large {
+  line-height: 4.8125rem;
 }
 
 @media print,screen and (min-width: 40em) {
